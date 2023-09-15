@@ -87,7 +87,7 @@ services:
     # logo: "path/to/logo"
     items:
       - name: "Portainer"
-        logo: "https://w7.pngwing.com/pngs/283/657/png-transparent-portainer-hd-logo.png"
+        logo: "https://blog.knoldus.com/wp-content/uploads/2018/04/docker.png"
         url: "https://docker.ts.djsmith.uk:9443"
         type: "Portainer"
         apikey: "ptr_VbVssnxpHD0tTHDQCPqjI4wkPRZjM6kzOI174rAMlVo="
