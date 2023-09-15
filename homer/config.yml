@@ -87,7 +87,7 @@ services:
     # logo: "path/to/logo"
     items:
       - name: "Bitwarden"
-        logo: "https://www.gstatic.com/images/branding/product/1x/admin_512dp.png"
+        logo: "https://cdn.icon-icons.com/icons2/2699/PNG/512/bitwarden_logo_icon_170473.png"
         tag: "public"
         url: "http://bw.daaan.uk"
       - name: "IT Tools"
