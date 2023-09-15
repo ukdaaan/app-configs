@@ -82,16 +82,10 @@ links: []
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   - name: "Application"
-    icon: "fas fa-code-branch"
+    icon: "fas fa-sitemap"
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
     # logo: "path/to/logo"
     items:
-      - name: "Portainer"
-        logo: "https://blog.knoldus.com/wp-content/uploads/2018/04/docker.png"
-        url: "https://docker.ts.djsmith.uk:9443"
-        type: "Portainer"
-        apikey: "ptr_VbVssnxpHD0tTHDQCPqjI4wkPRZjM6kzOI174rAMlVo="
-        tag: "internal"
       - name: "IT Tools"
         logo: "https://it-tools.tech/favicon-32x32.png"
         tag: "internal"
@@ -99,16 +93,14 @@ services:
       - name: "SpeedTester"
         logo: "https://www.speedtest.net/s/images/ookla/index/gauge-blue-1x.png"
         tag: "internal"
+        type: "SpeedtestTracker"
         url: "http://speed.ts.djsmith.uk"
-  - name: "Other group"
-    icon: "fas fa-heartbeat"
+  - name: "Admin Dashboards"
+    icon: "fas fa-code-branch"
     items:
-      - name: "Pi-hole"
-        logo: "assets/tools/sample.png"
-        # subtitle: "Network-wide Ad Blocking" # optional, if no subtitle is defined, PiHole statistics will be shown
-        tag: "other"
-        url: "http://192.168.0.151/admin"
-        type: "PiHole" # optional, loads a specific component that provides extra features. MUST MATCH a file name (without file extension) available in `src/components/services`
-        target: "_blank" # optional html a tag target attribute
-        # class: "green" # optional custom CSS class for card, useful with custom stylesheet
-        # background: red # optional color for card to set color directly without custom stylesheet
+      - name: "Portainer"
+        logo: "https://blog.knoldus.com/wp-content/uploads/2018/04/docker.png"
+        url: "https://docker.ts.djsmith.uk:9443"
+        type: "Portainer"
+        apikey: "ptr_VbVssnxpHD0tTHDQCPqjI4wkPRZjM6kzOI174rAMlVo="
+        tag: "internal"
