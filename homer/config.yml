@@ -97,7 +97,7 @@ services:
         tag: "internal"
         url: "http://tools.ts.djsmith.uk"
       - name: "SpeedTester"
-        logo: "http://speed.ts.djsmith.uk/files/icons/fav/android-icon-192x192.png"
+        logo: "https://www.speedtest.net/s/images/ookla/index/gauge-blue-1x.png"
         tag: "internal"
         url: "http://speed.ts.djsmith.uk"
   - name: "Other group"
