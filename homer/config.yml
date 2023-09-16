@@ -106,7 +106,7 @@ services:
         logo: "https://raw.githubusercontent.com/LinkStackOrg/branding/main/logo/png/logo.png"
         tag: "public"
         url: "https://thot.cc/login"
-      - name: "THOT (UK)"
+      - name: "setup.md U.G.C."
         logo: "https://user-images.githubusercontent.com/58886915/166198400-c2134044-1198-4647-a8b6-da9c4a204c68.svg"
         tag: "public"
         url: "https://thot.uk/auth/signIn"
