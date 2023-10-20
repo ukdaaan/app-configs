@@ -121,6 +121,10 @@ services:
         tag: "internal"
         type: "SpeedtestTracker"
         url: "http://speed.ts.djsmith.uk"
+      - name: "Uptime"
+        logo: "https://uptime.kuma.pet/img/icon.svg"
+        tag: "internal"
+        url: "https://uptime.ts.djsmith.uk/status/ts"
   - name: "Admin Dashboards"
     icon: "fas fa-code-branch"
     items:
