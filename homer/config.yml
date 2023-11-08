@@ -104,7 +104,7 @@ services:
       - name: "Remote Desktop"
         logo: "https://www.elevenforum.com/attachments/remote_desktop-png.22957/"
         tag: "internal"
-        url: "rdp://jumpbox.ts.djsmith.uk"
+        url: "rdp://winjump.taila544f.ts.net"
         target: "_blank"
       - name: "SpeedTester"
         logo: "https://www.speedtest.net/s/images/ookla/index/gauge-blue-1x.png"
