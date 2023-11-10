@@ -125,18 +125,8 @@ services:
     items:
       - name: "Portainer"
         logo: "https://blog.knoldus.com/wp-content/uploads/2018/04/docker.png"
-        url: "https://docker.ts.djsmith.uk:9443"
+        url: "https://docker.ts.servers.fun:9443"
         type: "Portainer"
         apikey: "ptr_VbVssnxpHD0tTHDQCPqjI4wkPRZjM6kzOI174rAMlVo="
-        tag: "internal"
-        target: "_blank"
-      - name: "Proxmox VE"
-        logo: "https://avatars.githubusercontent.com/u/2678585?s=280&v=4"
-        url: "https://pve-1.ts.djsmith.uk:8006"
-        type: "Proxmox"
-        node: "pve-1"
-        warning_value: 50
-        danger_value: 80
-        api_token: "PVEAPIToken=root@pam!homer=45cb8226-2a22-4bd9-b208-e9fe37fbd9e8"
         tag: "internal"
         target: "_blank"
